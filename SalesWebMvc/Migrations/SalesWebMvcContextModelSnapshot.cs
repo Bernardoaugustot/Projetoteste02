@@ -3,7 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SalesWebMvc.Data;
+using SalesWebMvc.Models;
 
 namespace SalesWebMvc.Migrations
 {
@@ -14,7 +14,7 @@ namespace SalesWebMvc.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.14-servicing-32113")
+                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("SalesWebMvc.Models.Department", b =>
@@ -46,7 +46,7 @@ namespace SalesWebMvc.Migrations
 
                     b.HasIndex("SellerId");
 
-                    b.ToTable("SalesRecords");
+                    b.ToTable("SalesRecord");
                 });
 
             modelBuilder.Entity("SalesWebMvc.Models.Seller", b =>
@@ -54,9 +54,9 @@ namespace SalesWebMvc.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime>("Aniversario");
-
                     b.Property<double>("BaseSalary");
+
+                    b.Property<DateTime>("BirthDate");
 
                     b.Property<int?>("DepartmentId");
 
@@ -68,7 +68,7 @@ namespace SalesWebMvc.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("Sellers");
+                    b.ToTable("Seller");
                 });
 
             modelBuilder.Entity("SalesWebMvc.Models.SalesRecord", b =>
@@ -81,7 +81,7 @@ namespace SalesWebMvc.Migrations
             modelBuilder.Entity("SalesWebMvc.Models.Seller", b =>
                 {
                     b.HasOne("SalesWebMvc.Models.Department", "Department")
-                        .WithMany("Seller")
+                        .WithMany("Sellers")
                         .HasForeignKey("DepartmentId");
                 });
 #pragma warning restore 612, 618
