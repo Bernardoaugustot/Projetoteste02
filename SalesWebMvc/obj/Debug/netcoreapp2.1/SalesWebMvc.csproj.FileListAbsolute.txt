@@ -41,3 +41,9 @@ C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\
 C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.genruntimeconfig.cache
 C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.csproj.CopyComplete
 C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
+C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.cshtml.g.cs
+C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.cshtml.g.cs
+C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\Index.cshtml.g.cs
+C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\GroupingSearch.cshtml.g.cs
+C:\Arquivos_linguagens_programas\ESTUDOS\CSharp\Projeto\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\SimpleSearch.cshtml.g.cs
